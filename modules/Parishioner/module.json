@@ -1,0 +1,13 @@
+{
+    "name": "Parishioner",
+    "alias": "parishioner",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Parishioner\\Providers\\ParishionerServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

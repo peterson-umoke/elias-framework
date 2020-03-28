@@ -1,0 +1,28 @@
+{
+    "name": "Core",
+    "alias": "core",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Core\\BreadCrumbs\\BreadCrumbsServiceProvider",
+        "Modules\\Core\\Flash\\Providers\\FlashServiceProvider",
+        "Modules\\Core\\Menu\\Providers\\MenuServiceProvider",
+        "Modules\\Core\\Notifications\\Providers\\NotificationsServiceProvider",
+        "Modules\\Core\\Notify\\Providers\\NotifyServiceProvider",
+        "Modules\\Core\\Blade_DBCompiler\\DbBladeCompilerServiceProvider"
+    ],
+    "aliases": {
+        "Breadcrumbs": "Modules\\Core\\BreadCrumbs\\Facades\\Breadcrumbs",
+        "Flash": "Modules\\Core\\Flash\\Facades\\Flash",
+        "Notifications": "Modules\\Core\\Notifications\\Facades\\Notifications",
+        "Notify": "Modules\\Core\\Notify\\Facades\\Notify",
+        "DbView": "Modules\\Core\\Blade_DBCompiler\\Facades\\DbView"
+    },
+    "files": [
+        "Flash/helpers.php",
+        "Notify/helpers.php",
+        "Notifications/helpers.php"
+    ],
+    "requires": []
+}

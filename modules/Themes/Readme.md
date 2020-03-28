@@ -1,0 +1,12 @@
+Please make sure to have the following important templates
+- header.blade.php
+- footer.blade.php
+- master.blade.php
+- app.blade.php
+- page.blade.php
+- post.blade.php
+- product.blade.php
+- video.blade.php
+- category.blade.php
+- media.blade.php
+- comments.blade.php

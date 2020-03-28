@@ -1,0 +1,18 @@
+{
+    "Admin": true,
+    "Customer": true,
+    "Page": true,
+    "Post": true,
+    "Core": true,
+    "Layouts": true,
+    "Products": true,
+    "Videos": true,
+    "Parishioners": true,
+    "Parishioner": true,
+    "Layout": true,
+    "Product": true,
+    "Video": true,
+    "Category": true,
+    "Comments": true,
+    "Media": true
+}
